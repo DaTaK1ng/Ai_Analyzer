@@ -1,0 +1,25 @@
+# Data and DB (regenerated locally, usually not pushed)
+data/raw/*.csv
+db/*.duckdb
+*.duckdb
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.Python
+
+# Env and secrets
+.env
+.env.local
+*.key
+
+# System and IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local models live in system Ollama dir, not in this project
